@@ -7,26 +7,26 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --copper:        #b85430;
-  --copper-light:  #cf6a3a;
-  --copper-pale:   #edb882;
-  --copper-dark:   #7a3418;
+  --copper:        #8E1F26;
+  --copper-light:  #A82530;
+  --copper-pale:   #D4959A;
+  --copper-dark:   #6F171D;
   --copper-dim:    rgba(192, 98, 46, 0.15);
-  --charcoal:      #161c24;
-  --charcoal-mid:  #1e2730;
+  --charcoal:      #1B1D21;
+  --charcoal-mid:  #222428;
   --charcoal-light:#263040;
-  --slate:         #38485a;
-  --slate-mid:     #4a5c70;
-  --slate-light:   #6a7e92;
+  --slate:         #8A9098;
+  --slate-mid:     #8A9098;
+  --slate-light:   #A0A8B0;
   --white:         #ffffff;
-  --off-white:     #f4f0e8;
-  --warm-white:    #ebe6dc;
-  --stone:         #ddd8cc;
+  --off-white:     #F5F1EB;
+  --warm-white:    #EDE8DE;
+  --stone:         #E9E4DC;
   --light-border:  #d0ccc4;
-  --border:        #c8c2b8;
-  --text:          #242018;
-  --text-muted:    #524e44;
-  --ink:           #0c1016;
+  --border:        #D0CAC0;
+  --text:          #17191C;
+  --text-muted:    #666A70;
+  --ink:           #121315;
 
   --font-display:  'Barlow Condensed', Impact, sans-serif;
   --font-body:     'Barlow', system-ui, sans-serif;
@@ -121,12 +121,12 @@ p  { max-width: 65ch; line-height: 1.72; }
   background: var(--copper);
   color: var(--white);
   border-color: var(--copper);
-  box-shadow: 0 4px 20px rgba(192, 98, 46, 0.4);
+  box-shadow: 0 4px 20px rgba(142, 31, 38, 0.4);
 }
 .btn-primary:hover {
   background: var(--copper-light);
   border-color: var(--copper-light);
-  box-shadow: 0 8px 32px rgba(192, 98, 46, 0.55);
+  box-shadow: 0 8px 32px rgba(142, 31, 38, 0.55);
 }
 
 .btn-secondary {
@@ -367,15 +367,15 @@ h2.light { color: var(--white); }
   inset: 0;
   background: linear-gradient(
     to right,
-    rgba(13, 18, 26, 0.96) 0%,
-    rgba(13, 18, 26, 0.88) 35%,
-    rgba(13, 18, 26, 0.55) 60%,
-    rgba(13, 18, 26, 0.15) 100%
+    rgba(18, 19, 21, 0.97) 0%,
+    rgba(18, 19, 21, 0.90) 38%,
+    rgba(18, 19, 21, 0.55) 62%,
+    rgba(18, 19, 21, 0.1) 100%
   ),
   linear-gradient(
     to top,
-    rgba(13, 18, 26, 0.5) 0%,
-    transparent 40%
+    rgba(18, 19, 21, 0.55) 0%,
+    transparent 45%
   );
 }
 .hero-content-wrap {
@@ -546,7 +546,7 @@ h2.light { color: var(--white); }
 
 /* ── SERVICES ─────────────────────────────────────────────── */
 .section-services {
-  background: var(--off-white);
+  background: #E9E4DC;
   position: relative;
 }
 .section-services::before {
@@ -656,7 +656,7 @@ h2.light { color: var(--white); }
 
 /* ── STORM SECTION ────────────────────────────────────────── */
 .section-storm {
-  background: var(--charcoal);
+  background: #1B1D21;
   color: var(--white);
   position: relative;
   overflow: hidden;
@@ -917,7 +917,7 @@ h2.light { color: var(--white); }
 
 /* ── REVIEWS ──────────────────────────────────────────────── */
 .section-reviews {
-  background: var(--off-white);
+  background: #F5F1EB;
   position: relative;
 }
 .section-reviews::before {
@@ -1008,7 +1008,7 @@ cite strong {
 cite span { font-size: 0.775rem; color: var(--text-muted); }
 
 /* ── SERVICE AREA ─────────────────────────────────────────── */
-.section-area { background: var(--warm-white); }
+.section-area { background: #1B1D21; }
 
 .area-layout {
   display: grid;
@@ -1119,7 +1119,7 @@ cite span { font-size: 0.775rem; color: var(--text-muted); }
 
 /* ── CONTACT ──────────────────────────────────────────────── */
 .section-contact {
-  background: var(--charcoal);
+  background: #1B1D21;
   color: var(--white);
   position: relative;
   overflow: hidden;
@@ -1286,7 +1286,7 @@ textarea { resize: vertical; min-height: 90px; }
 
 /* ── FOOTER ───────────────────────────────────────────────── */
 .site-footer {
-  background: var(--ink);
+  background: #121315;
   color: rgba(255,255,255,0.42);
   border-top: 3px solid var(--copper-dark);
 }
@@ -1342,7 +1342,7 @@ textarea { resize: vertical; min-height: 90px; }
 
 /* ── EMERGENCY BAR ────────────────────────────────────────── */
 .emergency-bar {
-  background: var(--copper-dark);
+  background: #6F171D;
   padding-block: 0.6rem;
 }
 .emergency-bar-inner {
@@ -1421,7 +1421,7 @@ textarea { resize: vertical; min-height: 90px; }
 
 /* ── SITUATION SECTION ────────────────────────────────────── */
 .section-situation {
-  background: var(--charcoal);
+  background: #F5F1EB;
   color: var(--white);
   position: relative;
   overflow: hidden;
@@ -1494,7 +1494,7 @@ textarea { resize: vertical; min-height: 90px; }
 
 /* ── PROCESS SECTION ──────────────────────────────────────── */
 .section-process {
-  background: var(--off-white);
+  background: #1B1D21;
   position: relative;
 }
 .section-process::before {
