@@ -1871,3 +1871,51 @@ textarea { resize: vertical; min-height: 90px; }
 .svc-item h3 { color: #17191C; }
 .svc-item p { color: #444850; }
 .services-note { color: #666A70; }
+
+/* ── NUCLEAR AREA FIX — wins all cascade ──────────────────── */
+.section-area,
+.section-area .area-layout,
+.section-area .area-content {
+  background-color: #E9E4DC !important;
+}
+
+.section-area h2,
+.section-area h3,
+.section-area h4 {
+  color: #17191C !important;
+  opacity: 1 !important;
+}
+
+.section-area p,
+.section-area li,
+.section-area span,
+.section-area address {
+  color: #3A3D42 !important;
+  opacity: 1 !important;
+}
+
+.section-area .section-label {
+  color: #8E1F26 !important;
+  opacity: 1 !important;
+}
+
+.section-area .section-label::before {
+  background: #8E1F26 !important;
+  opacity: 1 !important;
+}
+
+.section-area .area-county-block strong {
+  color: #8E1F26 !important;
+  opacity: 1 !important;
+}
+
+.section-area .area-county-block span,
+.section-area .area-counties-simple span {
+  color: #3A3D42 !important;
+  opacity: 1 !important;
+}
+
+.section-area .area-note {
+  color: #666A70 !important;
+  opacity: 1 !important;
+}
