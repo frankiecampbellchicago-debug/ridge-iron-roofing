@@ -1008,7 +1008,7 @@ cite strong {
 cite span { font-size: 0.775rem; color: var(--text-muted); }
 
 /* ── SERVICE AREA ─────────────────────────────────────────── */
-.section-area { background: #1B1D21; }
+.section-area { background: #2A2D32; }
 
 .area-layout {
   display: grid;
@@ -1808,3 +1808,41 @@ textarea { resize: vertical; min-height: 90px; }
   padding-top: 2.5rem;
   border-top: 1px solid var(--border);
 }
+
+/* ── CONTRAST OVERRIDES ───────────────────────────────────── */
+
+/* Service area */
+.section-area h2 { color: #FFFFFF; }
+.section-area .section-label { color: #A0A8B0; }
+.section-area > .container > .area-layout > .area-content > p { color: #C8CDD4; }
+.area-county-block strong { color: #D4959A; }
+.area-county-block span { color: #B8BEC6; }
+.area-note { color: #909298; }
+.area-list li { color: #C8CDD4; }
+.area-list li::before { color: #A82530; }
+
+/* Storm section */
+.section-storm .storm-content > p:not(.storm-lead) { color: #B8BEC6; }
+.storm-step p { color: #A8B0B8; }
+.storm-lead { color: #E0E4E8; }
+
+/* Process section */
+.process-step-content p { color: #B0B8C0; }
+
+/* Contact section */
+.contact-left > p { color: #C0C6CE; }
+.contact-detail a,
+.contact-detail address,
+.contact-detail span { color: #C8CDD4; }
+.contact-trust span { color: #A0A8B0; }
+
+/* Footer */
+.footer-brand p { color: #909298; }
+.footer-col li { color: #808890; }
+.footer-col a { color: #808890; }
+.footer-base { color: #606870; }
+
+/* Project cards */
+.proof-details p { color: #A8B0B8; }
+.proof-location { color: #808890; }
+.proof-tags span { color: #808890; }
