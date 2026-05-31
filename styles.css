@@ -1647,3 +1647,59 @@ textarea { resize: vertical; min-height: 90px; }
   .trust-item { min-width: 100%; }
   .hero-phone { font-size: 1.1rem; }
 }
+
+/* Hero trust row */
+.hero-trust-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  margin-bottom: 1.75rem;
+  padding: 0.875rem 1.25rem;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 3px;
+}
+.hero-trust-item {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.72);
+  font-weight: 400;
+  white-space: nowrap;
+}
+.hero-trust-item strong {
+  color: var(--copper-light);
+  font-weight: 700;
+}
+.hero-trust-sep {
+  color: rgba(255,255,255,0.2);
+  font-size: 0.75rem;
+}
+
+/* Larger problem cards */
+.problem-card--large {
+  padding: 2.25rem 2rem;
+}
+.problem-card--large .problem-card-icon {
+  width: 52px;
+  height: 52px;
+}
+.problem-card--large h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+.problem-card--large p {
+  font-size: 0.9375rem;
+  line-height: 1.68;
+}
+.problem-intro {
+  font-size: 1.0625rem;
+  color: rgba(255,255,255,0.55);
+  margin-top: 0.75rem;
+  max-width: 560px;
+}
+
+/* Storm section full width */
+.storm-layout.single-col {
+  grid-template-columns: 1fr;
+  max-width: 760px;
+}
