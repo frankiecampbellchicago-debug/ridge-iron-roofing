@@ -7,25 +7,26 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --copper:        #c0622e;
-  --copper-light:  #d97840;
-  --copper-pale:   #f2c898;
-  --copper-dark:   #8a4020;
+  --copper:        #b85430;
+  --copper-light:  #cf6a3a;
+  --copper-pale:   #edb882;
+  --copper-dark:   #7a3418;
   --copper-dim:    rgba(192, 98, 46, 0.15);
-  --charcoal:      #131b26;
-  --charcoal-mid:  #1c2636;
+  --charcoal:      #161c24;
+  --charcoal-mid:  #1e2730;
   --charcoal-light:#263040;
   --slate:         #38485a;
   --slate-mid:     #4a5c70;
   --slate-light:   #6a7e92;
   --white:         #ffffff;
-  --off-white:     #f5f2ed;
-  --warm-white:    #edeae4;
-  --stone:         #e4e0d8;
+  --off-white:     #f4f0e8;
+  --warm-white:    #ebe6dc;
+  --stone:         #ddd8cc;
   --light-border:  #d0ccc4;
-  --text:          #28261e;
-  --text-muted:    #58564e;
-  --ink:           #0c1018;
+  --border:        #c8c2b8;
+  --text:          #242018;
+  --text-muted:    #524e44;
+  --ink:           #0c1016;
 
   --font-display:  'Barlow Condensed', Impact, sans-serif;
   --font-body:     'Barlow', system-ui, sans-serif;
